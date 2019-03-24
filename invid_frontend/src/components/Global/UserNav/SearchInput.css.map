@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,WAAW;EACnB,KAAK,EAAE,GAAG;CAIX;;AAND,AAGE,YAHU,AAGT,MAAM,CAAC;EACN,MAAM,EAAE,OAAO;CAChB",
+    "sources": [
+        "SearchInput.scss"
+    ],
+    "names": [],
+    "file": "SearchInput.css"
+}

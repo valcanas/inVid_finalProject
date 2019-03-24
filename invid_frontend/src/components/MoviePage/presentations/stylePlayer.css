@@ -1,0 +1,44 @@
+
+
+.col-center{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.adminArea{
+    margin: 0;
+}
+
+.tarjetas{
+    margin: 0.5rem;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+.adminVideo{
+    height: 30rem;
+    width: 100%;
+}
+
+li.sinopsis {
+    width: 100%;
+    height: 5rem;
+    overflow: auto;
+    font-size: 1,2rem;
+    background-color: black;
+  }
+
+  li.title {
+    font-size: 2.5rem;
+    padding: 1rem;
+
+  }
+
+.tarjeta {
+    background-color: black;
+}
+

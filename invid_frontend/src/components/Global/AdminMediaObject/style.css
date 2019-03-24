@@ -1,0 +1,21 @@
+.player {
+    position: relative;
+    float: left;
+    width:  25rem;
+    height: 15rem;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    background-color: black;
+}
+.big-frame {
+    margin-top: 1rem;
+    width: 100%;
+    opacity: 25%;
+}
+.sinopsis {
+    overflow: hidden;
+}
+.frame-color {
+    background-color: rgba(255, 0, 0, 0.258);
+}

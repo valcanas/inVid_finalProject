@@ -1,0 +1,9 @@
+.search-icon {
+  margin: 0 5px 0 5px;
+  color: red;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=SearchInput.css.map */

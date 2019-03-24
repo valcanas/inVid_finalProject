@@ -1,0 +1,51 @@
+@import "HomeList";
+@import "./presentations/index";
+
+/* MQ */
+@include maxMediaQueries(750px) {
+  .list-title {
+    padding-left: 20px;
+  }
+  .left-controls {
+    height: 180px;
+    width: 10%;
+  }
+  .right-controls {
+    height: 180px;
+    width: 10%;
+  }
+  #content {
+    padding: 30px 0 30px 0;
+  }
+}
+
+.top-menu{
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  z-index: 100;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  position: fixed;
+  width: 100%;
+  height: 6.7rem;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.top-menu.black {
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+
+.main-body{
+  position: relative;
+  top: 8rem;
+  z-index: 0;
+}
+
+.canvas-back{
+  display: block;
+}
